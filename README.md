@@ -18,19 +18,18 @@ Movies are represented using textual metadata which is preprocessed using NLP te
 - Vectorized using `CountVectorizer` (Bag-of-Words model)
 - Cosine similarity used to compute movie-to-movie closeness
 - `recommend("Movie Title")` function returns top 5 similar movies
--  Optional: Poster fetching using the TMDB API (API key hidden for security)
-
+-  Optional: Poster fetching using the TMDB API 
 ---
 
 ## How to Run
 
 1. Clone the repository or download the files.
-2. Open `ML_content_based_movie_recommendation.ipynb` using Jupyter Notebook or VS Code.
+2. Open `Movie recommendation system.ipynb` using Jupyter Notebook or VS Code.
 3. Run all cells in order to:
    - Preprocess the data
    - Train the vector space model
    - Test recommendations
-4. Call `recommend('Inception')` or any other movie title.
+4. Call `recommend('Avatar')` or any other movie title.
 
 ---
 
